@@ -20,16 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c748c226-f5b3-498a-9c27-f2410515631c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/Blog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Myblog/Blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/Blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Myblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/Myblog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Myblog/Blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/Blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Myblog/Events/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/Events/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Myblog/Myblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/Myblog/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,9 +49,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjectSite" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -89,16 +100,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="48" key="#Inspections" timestamp="1608811851556">
+      <screen x="0" y="0" width="1386" height="740" />
+    </state>
+    <state x="320" y="48" key="#Inspections/0.0.1386.740@0.0.1386.740" timestamp="1608811851556" />
     <state x="466" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608473470973">
       <screen x="0" y="0" width="1386" height="740" />
     </state>
     <state x="466" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1386.740@0.0.1386.740" timestamp="1608473470973" />
-    <state x="474" y="125" key="FileChooserDialogImpl" timestamp="1608304412686">
+    <state x="474" y="240" width="438" height="375" key="FileChooserDialogImpl" timestamp="1608810479109">
       <screen x="0" y="0" width="1386" height="740" />
     </state>
-    <state x="474" y="125" key="FileChooserDialogImpl/0.0.1386.740@0.0.1386.740" timestamp="1608304412686" />
+    <state x="474" y="240" width="438" height="375" key="FileChooserDialogImpl/0.0.1386.740@0.0.1386.740" timestamp="1608810479109" />
+    <state x="154" y="33" width="981" height="707" key="SettingsEditor" timestamp="1608811570832">
+      <screen x="0" y="0" width="1386" height="740" />
+    </state>
+    <state x="154" y="33" width="981" height="707" key="SettingsEditor/0.0.1386.740@0.0.1386.740" timestamp="1608811570832" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
