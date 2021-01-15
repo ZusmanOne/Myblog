@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'accounts.apps.AccountsConfig',
 ]
 
 MIDDLEWARE = [
@@ -131,3 +132,6 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 MEDIA_URL = '/avesome_file/'
+
+LOGIN_REDIRECT_URL = 'home'
+LOGOUT_REDIRECT_URL = 'home'
