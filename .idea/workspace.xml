@@ -20,34 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c748c226-f5b3-498a-9c27-f2410515631c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Myblog/Blog/templates/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Blog/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Blog/migrations/0002_auto_20201221_1330.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Blog/migrations/0003_auto_20201229_0024.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Blog/migrations/0004_userblog.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Blog/migrations/0005_auto_20201229_2112.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Blog/migrations/0006_userblog_event_user.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Blog/migrations/0007_post_like_post.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Blog/migrations/0008_auto_20201230_1859.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Blog/migrations/0009_auto_20210114_1812.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Blog/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/Blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Blog/templates/Blog/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/Blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/Blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Events/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Events/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Events/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Events/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Events/migrations/0002_event_event_name.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Events/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Events/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Events/templates/events/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/Blog/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Events/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Events/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Myblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/Myblog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Myblog/Myblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Myblog/Myblog/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +49,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Myblog/Myblog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/Myblog/Myblog" />
   </component>
