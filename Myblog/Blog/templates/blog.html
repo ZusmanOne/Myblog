@@ -1,0 +1,34 @@
+{% extends "Blog/base.html" %}
+
+{% block content %}
+
+  <div class="row">
+    <div class="col-md-8 blog-main">
+
+        {% for i in myblog.all %}
+
+              <div class="blog-post">
+                <h2 class="blog-post-title">{{i.post_title}}</h2>
+                  <p class="blog-post-meta">{{i.post_date}} </p>
+                  <div class="col-md-7">
+                         <div class="card mb-4 shadow-sm">
+                               <p> {% if i.post_image %} <img  class="card-img-top"  src="{{i.post_image.url}}" /> {% endif %}</p>
+                                    <div class="card-body">
+                                  <p class="card-text">{{i.post_text}}</p>
+                                </div>
+                              </div>
+                  </div>
+              </div><!-- /.blog-post -->
+
+        {% endfor%}
+
+
+    </div><!-- /.blog-main -->
+
+
+
+  </div><!-- /.row -->
+
+
+
+{% endblock content%}

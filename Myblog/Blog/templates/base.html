@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -50,12 +49,13 @@
       <a class="navbar-brand" href="#">My avesome blog</a>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
+          <a class="nav-link" aria-current="page" href="{% url 'home'%}">Home</a>
           <a class="nav-link" href="#">Facebook</a>
           <a class="nav-link" href="{% url 'posts' %}">Blog</a>
           <a class="nav-link" href="{% url 'signup'%}"> Sign UP</a>
           {% if user.is_authenticated %}
           <p><a href="{% url 'logout' %}" class="btn btn-success my-2">Log out</a></p>
+          <a href="{% url 'post_new' %}" > New Post</a>
           {% else %}
           <a href="{% url 'login' %}" class="btn btn-primary my-2">Log In</a>
           {% endif %}
@@ -78,32 +78,21 @@
         <p>Вы не прошли авторизацию.</p>
 
       {% endif %}
-    {% block content %}
-    {% endblock content %}
+
 
 
     </div>
+
   </section>
 
   <div class="album py-5 bg-light">
     <div class="container">
+      {% block content %}
+      {% endblock content %}
 
 
 
-      <div class="row">
 
-<!--        {% for i in eventsq.all%}-->
-<!--        <div class="col-md-4">-->
-<!--          <div class="card mb-4 shadow-sm">-->
-<!--            <img class="card-img-top" src="{{i.event_images.url}}" />-->
-<!--                <div class="card-body">-->
-<!--              <p class="card-text">{{i.event_text}}</p>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-
-<!--        {% endfor %}-->
-      </div>
     </div>
   </div>
 

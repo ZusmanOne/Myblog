@@ -1,6 +1,6 @@
 from django.db import models
 
-from Events.models import Event
+#from Events.models import Event
 
 
 class UserBlog(models.Model):
@@ -9,7 +9,7 @@ class UserBlog(models.Model):
     date_of_birth = models.DateField(auto_now=False)
     e_mail = models.EmailField(help_text='vvedite po4tu')
     avatar_user = models.ImageField(upload_to='avatar/', blank=True)
-    event_user = models.ManyToManyField(Event)
+    #event_user = models.ManyToManyField(Event)
 
     def __str__(self):
         return '%s %s' % (self.first_name, self.last_name)

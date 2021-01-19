@@ -17,13 +17,15 @@ from django.contrib import admin
 from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
-import Events.views
+#import Events.views
 from django.urls import include
+import Blog.views
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', Events.views.home, name='home'),
+    #path('', Events.views.home, name='home'),
+    path('', Blog.views.home, name ='home'),
     path('posts/', include ('Blog.urls')),
     path('accounts/', include('django.contrib.auth.urls')),
     path('accounts/', include('accounts.urls')),
